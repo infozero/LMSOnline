@@ -10,6 +10,7 @@ and open the template in the editor.
         <title>这是示例程序</title>
     </head>
     <body>
+        显示服务器的版本信息。
         <?php
         // put your code here
         phpinfo();
