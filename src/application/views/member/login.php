@@ -1,17 +1,8 @@
-
-<form class="form-inline" role="form">
-  <div class="form-group">
-    <label class="sr-only" for="txtName">登录名：</label>
-    <input type="email" class="form-control" id="txtName" placeholder="请输入你的登录名">
-  </div>
-  <div class="form-group">
-    <label class="sr-only" for="txtPwd">密码：</label>
-    <input type="password" class="form-control" id="txtPwd" placeholder="请输入你的邮箱密码">
-  </div>
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> 记住密码
-    </label>
-  </div>
-  <button type="submit" class="btn btn-default">进入邮箱</button>
-</form>  
+      <form class="form-signin">
+        <h2 class="form-signin-heading">请登录</h2>
+        <label for="inputEmail" class="sr-only">请输入您的用户名</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="请输入您的用户名" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="请输入登录密码" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">立即登录</button>
+      </form>
